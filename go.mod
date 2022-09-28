@@ -1,4 +1,4 @@
-module github.com/axiomhq/variance
+module github.com/robitx/variance
 
 go 1.17
 
