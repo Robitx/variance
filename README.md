@@ -41,13 +41,13 @@ D. H. D. West improved methods.
 ### Install using `go get`
 
 ```shell
-go get github.com/axiomhq/variance
+go get github.com/robitx/variance
 ```
 
 ### Install from source
 
 ```shell
-git clone https://github.com/axiomhq/variance.git
+git clone https://github.com/robitx/variance.git
 cd variance
 make # Run code generators, linters, sanitizers and test suits
 ```
@@ -60,7 +60,7 @@ package variance_test
 import (
 	"fmt"
 
-	"github.com/axiomhq/variance"
+	"github.com/robitx/variance"
 )
 
 func Example() {
@@ -109,15 +109,15 @@ See [LICENSE](LICENSE) for more information.
 
 <!-- Badges -->
 
-[gopkg]: https://pkg.go.dev/github.com/axiomhq/variance
+[gopkg]: https://pkg.go.dev/github.com/robitx/variance
 [gopkg_badge]: https://img.shields.io/badge/doc-reference-007d9c?logo=go&logoColor=white&style=flat-square
-[go_workflow]: https://github.com/axiomhq/variance/actions/workflows/push.yml
-[go_workflow_badge]: https://img.shields.io/github/workflow/status/axiomhq/variance/Push?style=flat-square&ghcache=unused
-[coverage]: https://codecov.io/gh/axiomhq/variance
-[coverage_badge]: https://img.shields.io/codecov/c/github/axiomhq/variance.svg?style=flat-square&ghcache=unused
-[report]: https://goreportcard.com/report/github.com/axiomhq/variance
-[report_badge]: https://goreportcard.com/badge/github.com/axiomhq/variance?style=flat-square&ghcache=unused
-[release]: https://github.com/axiomhq/variance/releases/latest
-[release_badge]: https://img.shields.io/github/release/axiomhq/variance.svg?style=flat-square&ghcache=unused
+[go_workflow]: https://github.com/robitx/variance/actions/workflows/push.yml
+[go_workflow_badge]: https://img.shields.io/github/workflow/status/robitx/variance/Push?style=flat-square&ghcache=unused
+[coverage]: https://codecov.io/gh/robitx/variance
+[coverage_badge]: https://img.shields.io/codecov/c/github/robitx/variance.svg?style=flat-square&ghcache=unused
+[report]: https://goreportcard.com/report/github.com/robitx/variance
+[report_badge]: https://goreportcard.com/badge/github.com/robitx/variance?style=flat-square&ghcache=unused
+[release]: https://github.com/robitx/variance/releases/latest
+[release_badge]: https://img.shields.io/github/release/robitx/variance.svg?style=flat-square&ghcache=unused
 [license]: https://opensource.org/licenses/MIT
-[license_badge]: https://img.shields.io/github/license/axiomhq/variance.svg?color=blue&style=flat-square&ghcache=unused
+[license_badge]: https://img.shields.io/github/license/robitx/variance.svg?color=blue&style=flat-square&ghcache=unused

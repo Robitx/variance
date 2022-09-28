@@ -15,14 +15,14 @@ changelog:
 
 milestones:
   - repo:
-      owner: axiomhq
+      owner: robitx
       name: variance
     close: true
     fail_on_error: false
 
 release:
   github:
-    owner: axiomhq
+    owner: robitx
     name: variance
   prerelease: auto
   name_template: "Variance v{{.Version}}"

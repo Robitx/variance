@@ -19,7 +19,7 @@ jobs:
   check:
     name: Check
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'axiomhq'
+    if: github.repository_owner == 'robitx'
     steps:
       - uses: z0al/dependent-issues@v1
         env:
